@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "name": "jsonplaceholder-posts",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "pagination": {
+        "type": "query",
+        "page_param": "_page",
+        "page_size_param": "_limit",
+        "page_size": 3,
+        "max_pages": 2
+      },
+      "record_path": null
+    },
+    {
+      "name": "dummyjson-products",
+      "url": "https://dummyjson.com/products",
+      "pagination": {
+        "type": "query",
+        "page_param": "skip",
+        "page_size_param": "limit",
+        "page_size": 2,
+        "max_pages": 2,
+        "page_strategy": "offset"
+      },
+      "record_path": "products"
+    }
+  ]
+}
