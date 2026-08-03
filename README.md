@@ -436,6 +436,6 @@ One issue encountered during development was a Docker build failure caused by us
 
 B.Tech – Artificial Intelligence & Machine Learning
 
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/manoj987654
 
 Email: sillamanojsilla@gmail.com
